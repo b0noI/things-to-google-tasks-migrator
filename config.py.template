@@ -1,0 +1,14 @@
+# Template for configuration
+# Rename this file to config.py and fill in your actual values
+
+# Path to your Things 3 SQLite database
+# Example for Mac: '/Users/yourusername/Library/Group Containers/JLMPQHK86H.com.culturedcode.ThingsMac/Things Database/main.sqlite'
+THINGS_DB_PATH = ""
+
+# Path to your Google API credentials JSON file
+# This is the file you download from Google Cloud Console when setting up OAuth 2.0
+GOOGLE_API_CREDENTIALS_PATH = "credentials.json"
+
+# (Optional) Things Cloud credentials, if ever needed by a library (pythings likely won't need this for local DB access)
+# THINGS_EMAIL = ""
+# THINGS_PASSWORD = ""
